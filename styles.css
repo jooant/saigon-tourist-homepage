@@ -22,6 +22,18 @@ img{
 .activity-name{
     width: 200px;
     text-align: center;
+    padding: 4px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.activity-name:hover{
+    transform: scale(1.03);
+    background-color: #28465e;
+    border-radius: 4px;
+    color: #e2e8f7;
+    text-decoration: underline;
+    text-underline-offset: 2px;
 }
 
 .activity-description{
@@ -78,7 +90,13 @@ img{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    color:#e2e8f7
+    color:#e2e8f7;
+    transition: all 0.3s ease;
+}
+
+#tour-guide:hover{
+    transform: scale(1.05);
+    background-color: #908198;
 }
 
 #tour-guide-img{
